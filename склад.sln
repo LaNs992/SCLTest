@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "склад", "склад\склад.csproj", "{BD0964C8-6217-4479-868B-FB26C7331FDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCLlib", "SCLlib\SCLlib.csproj", "{F787A3C2-56A9-43D9-BCEF-986314108514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScladLogic", "ScladLogic\ScladLogic.csproj", "{CA71E356-F264-4847-B60C-EDDA33C1426C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD0964C8-6217-4479-868B-FB26C7331FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD0964C8-6217-4479-868B-FB26C7331FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD0964C8-6217-4479-868B-FB26C7331FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD0964C8-6217-4479-868B-FB26C7331FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F787A3C2-56A9-43D9-BCEF-986314108514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F787A3C2-56A9-43D9-BCEF-986314108514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F787A3C2-56A9-43D9-BCEF-986314108514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F787A3C2-56A9-43D9-BCEF-986314108514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA71E356-F264-4847-B60C-EDDA33C1426C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA71E356-F264-4847-B60C-EDDA33C1426C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA71E356-F264-4847-B60C-EDDA33C1426C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA71E356-F264-4847-B60C-EDDA33C1426C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1D2F00F-94D1-45AD-911D-EFF463649B72}
+	EndGlobalSection
+EndGlobal
