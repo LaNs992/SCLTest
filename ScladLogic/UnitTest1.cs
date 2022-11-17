@@ -1,5 +1,5 @@
 using SCLlib;
-using склад;
+using СЃРєР»Р°Рґ;
 
 namespace ScladLogic
 {
@@ -12,9 +12,9 @@ namespace ScladLogic
             var result = SCL.Get();
             sclad mytest = new()
             {
-               name = "Франция",
+               name = "РЎСѓРјРєР°",
                 raz = "13",
-                mater = "железо",
+                mater = "РјРµРґСЊ",
                 kol = 100,
                 min = 2,
                 price = 234,
@@ -32,9 +32,9 @@ namespace ScladLogic
             var result = SCL.Get();
             sclad mytest = new()
             {
-                name = "стол",
+                name = "РЎСѓРјРєР°",
                 raz = "13",
-                mater = "железо",
+                mater = "РјРµРґСЊ",
                 kol = 100,
                 min = 2,
                 price = 234,
@@ -43,9 +43,9 @@ namespace ScladLogic
             SCL.Add(mytest);
             sclad mytest2 = new()
             {
-                name = "Коробка",
+                name = "РљР°СЂР°РЅРґР°С€",
                 raz = "13",
-                mater = "железо",
+                mater = "Р”РµСЂРµРІРѕ",
                 kol = 70,
                 min = 2,
                 price = 234,
@@ -63,9 +63,9 @@ namespace ScladLogic
             sclad mytest = new()
             {
 
-                name = "стол",
+                name = "РЎСѓРјРєР°",
                 raz = "13",
-                mater = "железо",
+                mater = "РјРµРґСЊ",
                 kol = 100,
                 min = 2,
                 price = 234,
