@@ -8,8 +8,7 @@ namespace ScladLogic
         [Fact]
         public void AddButton()
         {
-            bisnesSclad SCL = new();
-            var result = SCL.Get();
+            bisnesSclad SCL = new();    
             sclad mytest = new()
             {
                name = "Сумка",
@@ -22,6 +21,7 @@ namespace ScladLogic
            
             };
             SCL.Add(mytest);
+            var result = SCL.Get();
             Assert.Equal(mytest, result[0]);
         }
 
@@ -29,7 +29,7 @@ namespace ScladLogic
         public void ChangeButton()
         {
             bisnesSclad SCL = new();
-            var result = SCL.Get();
+           
             sclad mytest = new()
             {
                 name = "Сумка",
@@ -52,6 +52,7 @@ namespace ScladLogic
                 fulprice = 280.4,
             };
             SCL.Update(mytest,mytest2);
+             var result = SCL.Get();
             Assert.Equal(mytest2, result[0]);
         }
 
@@ -59,7 +60,6 @@ namespace ScladLogic
         public void DeleteButton()
         {
             bisnesSclad SCL = new();
-            var result = SCL.Get();
             sclad mytest = new()
             {
 
@@ -73,6 +73,7 @@ namespace ScladLogic
             };
             SCL.Add(mytest);
             SCL.Remove(mytest);
+             var result = SCL.Get();
             Assert.Empty(result);
         }
     }
